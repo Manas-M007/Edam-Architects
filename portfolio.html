@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | EDAM ARCHITECTS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="luxury-header">
+        <div class="logo-container">
+            <h1 class="logo-text">E D A M</h1>
+            <p class="tagline">ARCHITECTS</p>
+            <p class="slogan">We Build Your Dreams</p>
+        </div>
+        <nav class="luxury-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="portfolio-main">
+        <section class="portfolio-hero">
+            <h1>Our Portfolio</h1>
+            <p>27+ projects showcasing our architectural excellence</p>
+        </section>
+
+        <section class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="residential">Residential</button>
+            <button class="filter-btn" data-filter="commercial">Commercial</button>
+            <button class="filter-btn" data-filter="ongoing">Ongoing</button>
+            <button class="filter-btn" data-filter="upcoming">Upcoming</button>
+        </section>
+
+        <section class="portfolio-gallery">
+            <!-- Project 1 -->
+            <div class="project-item residential" id="haris-residence">
+                <img src="images/project1.jpg" alt="Haris Residence">
+                <div class="project-overlay">
+                    <h3>Haris Residence</h3>
+                    <p>Parappanangadi, Malappuram</p>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+                <div class="project-details">
+                    <h3>Haris Residence</h3>
+                    <p><strong>Location:</strong> Parappanangadi, Malappuram</p>
+                    <p><strong>Client:</strong> Haris</p>
+                    <p><strong>Year:</strong> 2023</p>
+                    <p><strong>Area:</strong> 3500 sq.ft</p>
+                    <p>A contemporary residence blending modern aesthetics with traditional Kerala architectural elements. The design focuses on natural ventilation and maximizing natural light.</p>
+                    <div class="project-images">
+                        <img src="images/project1-1.jpg" alt="Haris Residence">
+                        <img src="images/project1-2.jpg" alt="Haris Residence">
+                        <img src="images/project1-3.jpg" alt="Haris Residence">
+                    </div>
+                    <a href="https://www.instagram.com/edam.architects" target="_blank" class="luxury-btn">View on Instagram</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-item upcoming" id="neeba-project">
+                <img src="images/project2.jpg" alt="Neeba Project">
+                <div class="project-overlay">
+                    <h3>Neeba Project</h3>
+                    <p>Kuruva, Malappuram</p>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+                <div class="project-details">
+                    <h3>Neeba Project</h3>
+                    <p><strong>Location:</strong> Kuruva, Malappuram</p>
+                    <p><strong>Client:</strong> Neeba</p>
+                    <p><strong>Status:</strong> Upcoming</p>
+                    <p><strong>Area:</strong> 4200 sq.ft</p>
+                    <p>A modern villa project featuring clean lines, expansive glass facades, and sustainable design principles. The project includes a rooftop garden and solar panel integration.</p>
+                    <div class="project-images">
+                        <img src="images/project2-1.jpg" alt="Neeba Project">
+                        <img src="images/project2-2.jpg" alt="Neeba Project">
+                    </div>
+                    <a href="https://www.instagram.com/edam.architects" target="_blank" class="luxury-btn">View on Instagram</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-item ongoing" id="maneesh-residence">
+                <img src="images/project3.jpg" alt="Maneesh Residence">
+                <div class="project-overlay">
+                    <h3>Maneesh Residence</h3>
+                    <p>Karingallathani, Malappuram</p>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+                <div class="project-details">
+                    <h3>Maneesh Residence</h3>
+                    <p><strong>Location:</strong> Karingallathani, Malappuram</p>
+                    <p><strong>Client:</strong> Maneesh</p>
+                    <p><strong>Status:</strong> Ongoing</p>
+                    <p><strong>Area:</strong> 2800 sq.ft</p>
+                    <p>A fusion of traditional Kerala architecture with contemporary design elements. The residence features a central courtyard, sloping roofs, and modern interiors.</p>
+                    <div class="project-images">
+                        <img src="images/project3-1.jpg" alt="Maneesh Residence">
+                        <img src="images/project3-2.jpg" alt="Maneesh Residence">
+                        <img src="images/project3-3.jpg" alt="Maneesh Residence">
+                    </div>
+                    <a href="https://www.instagram.com/edam.architects" target="_blank" class="luxury-btn">View on Instagram</a>
+                </div>
+            </div>
+
+            <!-- Add more projects following the same pattern -->
+        </section>
+
+        <div class="project-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-body"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="luxury-footer">
+        <div class="social-links">
+            <a href="https://www.instagram.com/edam.architects" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/edamarchitecturalstudio" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://g.co/kgs/hs1afpb" target="_blank"><i class="fab fa-google"></i></a>
+        </div>
+        <p>&copy; 2024 EDAM ARCHITECTS. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/gallery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
